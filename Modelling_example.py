@@ -1,7 +1,10 @@
+"""A simple self contained example of how Napari can be useful for visualizing data. Using modelled
+charge transition data here where the 2D plot is just a 1D line repeated, and the profile line is of the
+1D plot"""
+
 import napari
 from dataclasses import dataclass, asdict
 import numpy as np
-from skimage import measure
 
 # For typing
 from typing import Union, List, Tuple
